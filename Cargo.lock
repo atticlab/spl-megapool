@@ -3945,6 +3945,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "spl-token-mega-swap"
+version = "0.1.0"
+dependencies = [
+ "arbitrary",
+ "borsh 0.8.2",
+ "num-derive",
+ "num-traits",
+ "solana-program",
+ "solana-program-test",
+ "solana-sdk",
+ "spl-token 3.1.0",
+ "thiserror",
+ "uint",
+]
+
+[[package]]
 name = "spl-token-swap"
 version = "0.1.0"
 dependencies = [
