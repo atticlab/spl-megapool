@@ -25,7 +25,7 @@ arbitrary = { version = "0.4", features = ["derive"], optional = true }
 
 [dev-dependencies]
 solana-sdk = "1.6.2"
-proptest = "0.10"
+proptest = "1.0"
 sim =  { path = "./sim" }
 
 [lib]
