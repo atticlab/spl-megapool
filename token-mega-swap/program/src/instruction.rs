@@ -35,7 +35,7 @@ pub enum PoolInstruction {
     ///   - `[]` liquidity_token_bc_total Account.
     ///   - `[]` liquidity_token_bc_b_total Account.
     ///   - `[]` program_id
-    Validate,
+    Prepare,
 
     ///   Swap the tokens in the pool. Accepts `spl_token_swap::instruction::Swap` input.
     ///
