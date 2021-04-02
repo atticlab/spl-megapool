@@ -2,6 +2,8 @@
 
 #![allow(clippy::too_many_arguments)]
 
+use borsh::{BorshSerialize, BorshDeserialize};
+
 use crate::curve::{base::SwapCurve, fees::Fees};
 use crate::error::SwapError;
 use solana_program::{
@@ -32,7 +34,7 @@ pub struct Initialize {
 /// Swap instruction data
 #[cfg_attr(feature = "fuzz", derive(Arbitrary))]
 #[repr(C)]
-#[derive(Clone, Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq, BorshSerialize, BorshDeserialize)]
 pub struct Swap {
     /// SOURCE amount to transfer, output to DESTINATION is based on the exchange rate
     pub amount_in: u64,

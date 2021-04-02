@@ -3955,7 +3955,9 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
+ "spl-math",
  "spl-token 3.1.0",
+ "spl-token-swap",
  "thiserror",
  "uint",
 ]
@@ -3966,6 +3968,7 @@ version = "0.1.0"
 dependencies = [
  "arbitrary",
  "arrayref",
+ "borsh 0.8.2",
  "enum_dispatch",
  "num-derive",
  "num-traits",
