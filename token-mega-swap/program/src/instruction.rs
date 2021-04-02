@@ -37,7 +37,7 @@ pub enum PoolInstruction {
     ///   - `[]` program_id
     Validate,
 
-    ///   Swap the tokens in the pool.
+    ///   Swap the tokens in the pool. Accepts `spl_token_swap::instruction::Swap` input.
     ///
     ///   - `[]` Token-swap
     ///   - `[]` swap authority
