@@ -3140,9 +3140,9 @@ dependencies = [
 
 [[package]]
 name = "solana-cli-config"
-version = "1.6.2"
+version = "1.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68537b30661bd7323b912c59fcac24859f26299fcbefd8f9838ad7c0ea53440e"
+checksum = "e9aba541bdd235ce4c0c9ede3d11289f75ef13f33bcee3bd111aea10295d3b9a"
 dependencies = [
  "dirs-next",
  "lazy_static",
